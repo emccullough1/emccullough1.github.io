@@ -2,6 +2,6 @@
 console.log('OK');
 
 // Lightgallerys
-$('.gallery-1').lightGallery({
-    selector: 'a';
+$('#animated-thumbnails').lightGallery({
+    thumbnail: true
 });
