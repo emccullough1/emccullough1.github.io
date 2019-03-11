@@ -2,6 +2,16 @@
 console.log('OK');
 
 // Lightgallerys
-$('#animated-thumbnails').lightGallery({
-    thumbnail: true
+$('#gallery-1').lightGallery({
+    thumbnail: false,
+    share: false,
+    download: false,
+    mode: 'lg-tube'
+});
+
+$('#gallery-2').lightGallery({
+    thumbnail: true,
+    share: false,
+    download: false,
+    mode: 'lg-slide-vertical-growth'
 });

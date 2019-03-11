@@ -2,11 +2,26 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background: lightgray;
 }
 
 * {
   outline: 1px dotted black;
 }
 
+
 /* Your Awesome Scripts */
+
+/* Portfolio Styling */
+.lg-backdrop.in {
+  background-color: #000;
+  opacity: .75;
+}
+
+.lg-sub-html {
+  display: none;
+}
+
+.lg-object.lg-image {
+  border-radius: 10px;
+}
