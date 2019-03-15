@@ -7,10 +7,61 @@ body {
 
 * {
   outline: 1px dotted black;
+  margin: 0;
 }
 
 
 /* Your Awesome Scripts */
+
+/* Nav styling */
+header {
+  background-color: #0ecaca;
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+  margin: 80px;
+}
+
+.nav-button{
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-button:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.8s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-button:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/* title styling */
+  h1 {
+  }
 
 /* Portfolio Styling */
 .lg-backdrop.in {
@@ -32,6 +83,7 @@ body {
 }
 
 .gallery {
+  margin-top: 100px;
   display: grid;
 	grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: minmax(100px, auto); 
