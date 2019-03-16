@@ -8,4 +8,3 @@ $('.gallery').lightGallery({
     download: false,
     mode: 'lg-tube'
 });
-
