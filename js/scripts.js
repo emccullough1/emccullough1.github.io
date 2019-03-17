@@ -6,5 +6,8 @@ $('.gallery').lightGallery({
     thumbnail: false,
     share: false,
     download: false,
-    mode: 'lg-tube'
+    zoom: false,
+    counter: false,
+    autoplay: false,
+    mode: 'lg-slide'
 });
