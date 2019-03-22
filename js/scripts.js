@@ -11,3 +11,4 @@ $('.gallery').lightGallery({
     autoplay: false,
     mode: 'lg-slide'
 });
+
