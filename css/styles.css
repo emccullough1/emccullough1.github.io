@@ -165,6 +165,25 @@ textarea {
   background-color: #0ecaca;
 }
 
+/* about  */
+.about-wrap {
+  display: flex;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.about-img {
+  width: 300px;
+  height: 450px;
+}
+
+#about-text {
+  padding: 0 10px 10px 30px;
+  max-width: 580px;
+}
+
+
+
 /* 404 */
 .error-wrap {
   text-align: center;
