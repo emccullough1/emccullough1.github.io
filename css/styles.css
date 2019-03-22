@@ -40,6 +40,10 @@ header li {
   font-size: 16px;
 }
 
+header ul {
+  padding-inline-start: 0px;
+}
+
 .nav-button{
   color: white;
   text-decoration: none;
@@ -127,8 +131,7 @@ header li {
 form {
   display: flex;
   flex-direction: column;
-  border: solid black 1px;
-  height: 400px;
+  height: 390px;
   width: 405px;
   justify-content: space-between;
   margin: 0 auto;
@@ -156,5 +159,6 @@ textarea {
 
 #button {
   width: 100px;
-  margin-left: 300px
+  margin-left: 300px;
+  background-color: #0ecaca;
 }
