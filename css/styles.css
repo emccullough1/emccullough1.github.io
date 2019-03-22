@@ -17,6 +17,7 @@ h1  {
   font-size: 40px;
   margin: 100px auto 100px auto;
   text-align: center;
+  font-family: 'Paytone One', sans-serif;
 }
 
 /* Nav styling */
@@ -38,6 +39,7 @@ header * {
 header li {
   margin: 80px;
   font-size: 16px;
+font-family: 'Pavanam', sans-serif;
 }
 
 header ul {
