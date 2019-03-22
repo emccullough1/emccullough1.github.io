@@ -42,22 +42,22 @@
     
     <h1>Contact Page</h1>
 
-    <form action="https://formspree.io/emccullough1@eagles.ewu.edu" method="POST">
-        <label for="name">Name</label>
-        <input type="text" name="name">
-
-        <label for="-replyto">Email</label>
-        <input type="email" name="_replyto">
-
-        <label for="comments">Comments</label>
-        <textarea name="comments" id="" cols="30" rows="10"></textarea>
-
-        <input type="submit" value="Send">
-
-
+    <form action="https://formspree.io/emccullough1@eagles.ewu.edu" method="POST" class="grid">
+  
+        <input type="text" name="name" placeholder="Name" class="input-short">
+     
+           <input type="email" name="_replyto" placeholder="Email" class="input-short">
+     
+         <input type="text" name="subject" placeholder="Subject" class="input-long">
+   
+        <textarea name="comments" id="" cols="30" rows="10" placeholder="Message" ></textarea>
+   
+        <input type="submit" value="Send" id="button">
+   
+   
         <!-- Hidden -->
         <input type="hidden" name="_next" value="/index.html"/>
-      </form>
+    </form>
     
 
     <!-- jQuery Library via CDN -->
