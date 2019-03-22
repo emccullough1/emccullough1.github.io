@@ -162,3 +162,15 @@ textarea {
   margin-left: 300px;
   background-color: #0ecaca;
 }
+
+/* 404 */
+.error-wrap {
+  text-align: center;
+  margin-top: 120px;
+}
+
+#error {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
