@@ -1,6 +1,7 @@
 # emccullough1.github.io
 my website
 
+
 ## Dependencies
 * Normalize CSS []
 * [lightgallery] 
