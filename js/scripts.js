@@ -9,8 +9,7 @@ $('.gallery').lightGallery({
     zoom: false,
     counter: false,
     autoplay: false,
-    mode: 'lg-slide';
-    appendSubHtmlTo: 'lg-sub-html';
+    mode: 'lg-slide'
 });
 
 // copyright date
