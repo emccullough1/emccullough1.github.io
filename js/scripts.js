@@ -9,5 +9,13 @@ $('.gallery').lightGallery({
     zoom: false,
     counter: false,
     autoplay: false,
-    mode: 'lg-slide'
+    mode: 'lg-slide';
+    appendSubHtmlTo: 'lg-sub-html';
 });
+
+// copyright date
+var today = new Date();
+var year = today.getFullYear(); 
+console.log( today, year);
+$('span').text (year);
+
